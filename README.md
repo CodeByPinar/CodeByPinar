@@ -27,6 +27,16 @@
 
 ## 🎨 Skills & Tech Stack
 
+### 🚀 Languages & Frameworks
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,dotnet,postgres,mongodb,js,ts&theme=dark"/>
+</p>
+
+### 🛠 Tools & Platforms
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=github,docker,visualstudio,postman,figma,vscode&theme=dark"/>
+</p>
+
 ### 🌐 Frontend
 
 * **React** (Hooks, Context, Zustand, Redux-lite)
