@@ -1,177 +1,215 @@
-<!-- 🌈 ULTRA VIBRANT WAVE HEADER -->
-
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif"/>
+  <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" />
 </p>
 
-<h2 align="center">👩🏻‍💻 <strong style="color:#ff6ec4">Full-Stack Web Developer</strong> | <span style="color:#ffcb05">React • Next.js • .NET • Design</span></h2>
+<h1 align="center">👩🏻‍💻 Pınar Topuz</h1>
+
 <p align="center">
-  <b>Frontend</b> • <b>Backend</b> • <b>UI/UX</b> • <b>DevOps</b> • <b>Design Systems</b><br>
-  <i>Scalable systems, colorful design, and creative workflows 🌈✨</i>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=900&lines=Principal+Full-Stack+Engineer;Design+Systems+Architect;Cyber+Security+Researcher;Bug+Bounty+Hunter;DevOps+and+Cloud+Engineer" />
+</p>
+
+<p align="center">
+  <b>Design-first Engineering · Security-aware Systems · Performance-driven Platforms</b>
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/dynamic/json?color=00f7ff&label=Profile%20Views&query=$.count&url=https://api.countapi.xyz/hit/CodeByPinar/profile" />
+  <img src="https://img.shields.io/github/followers/CodeByPinar?style=for-the-badge&color=ff00ff" />
+  <img src="https://img.shields.io/github/stars/CodeByPinar?style=for-the-badge&color=00ff9c" />
 </p>
 
 ---
 
-## 📖 About Me
+## 🧠 Executive Summary
 
 ```yaml
-🛠️ Specialization: Modern full-stack web development with vibrant UI
-🚀 Projects       : StellarX, Electorix, KatmanPlayground, CoreXCrudAPI
-🎯 Focus          : React • Next.js • ASP.NET Core • UI/UX • Design Systems
-🌱 Learning       : Microservices · Web Performance · CI/CD · 3D Web (Three.js)
-👩🏻‍🏫 Community   : Women in Tech Advocate, Creative Mentor
-🎯 Mission        : Build applications that are beautiful, performant, and inclusive
+Role        : Principal-Level Full-Stack Engineer
+Specialty   : Secure Web Platforms & Design Systems
+Stack       : React · Next.js · TypeScript · .NET · DevOps
+Security    : Bug Bounty · OWASP · API Security
+Mindset     : Architecture-first · Zero-trust · Performance obsessed
 ```
 
 ---
 
-## 🎨 Skills & Tech Stack
-
-### 🚀 Languages & Frameworks
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,dotnet,postgres,mongodb,js,ts&theme=dark"/>
-</p>
-
-### 🛠 Tools & Platforms
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=github,docker,visualstudio,postman,figma,vscode&theme=dark"/>
-</p>
-
-### 🌐 Frontend
-
-* **React** (Hooks, Context, Zustand, Redux-lite)
-* **Next.js** (SSR, SSG, API Routes)
-* **TypeScript / JavaScript (ES6+)**
-* **Styling:** CSS3, SCSS, Styled Components, CSS Modules
-* **UI Frameworks:** ShadCN, Radix UI, Material UI, Bootstrap
-* **Animations & Effects:** Framer Motion, GSAP, Lottie
-
-### ⚙️ Backend
-
-* ASP.NET Core + Entity Framework Core
-* Node.js + Express APIs
-* MongoDB • SQL Server
-* JWT Authentication, Validation, Clean Architecture
-
-### 🚀 DevOps & Tools
-
-* Git & GitHub (Actions, CI/CD)
-* Docker & Containerized Environments
-* Postman, Swagger
-* Vercel, Netlify, Azure, Railway
-* WSL2, Windows Terminal, Oh My Posh
-
-### 🎨 Design Tools
-
-* Figma (Wireframes, Prototypes)
-* Photoshop, Illustrator (Graphic Assets)
-* Canva (Quick Creative)
-* Blender basics (3D UI Assets)
-
----
-
-## 🧩 Widgets & Extra Tools
-
-📊 **Productivity Widgets**
-
-* Contribution graphs (streaks, heatmaps)
-* Language donut charts + bar charts
-* Daily commit tracker with colorful badges
-
-🎨 **Design Widgets**
-
-* Gradient collections (linear, radial, conic)
-* Color palette previews with HEX/RGB values
-* Typography scale & hierarchy showcase
-* Icon showcase with animated previews
-
-💸 **Budget & Planning Tools**
-
-* Project budget tables with color-coded priorities
-* Resource allocation bars (dev/design/testing)
-* Tech cost estimator (cloud hosting, domains)
-
-📅 **Timeline Tools**
-
-* Project roadmap progress bars
-* Release milestone checklists
-* Sprint goal completion rings (circular progress)
-
-🧠 **Learning Widgets**
-
-* Skill tree visual (frontend → full-stack → design systems)
-* Course/book progress charts
-* Practice streak meters (LeetCode, FrontendMentor)
-
-🎮 **Fun Zone Tools**
-
-* Pixel-art GitHub stats widget
-* Random dev joke generator
-* Coffee consumption tracker ☕
-
----
-
-## 🗂️ Featured Projects
-
-### 🌌 `StellarX`
-
-Interactive science/space site (Next.js + Framer Motion)
-
-### 🛍️ `Electorix`
-
-Cyberpunk-inspired e-commerce frontend (React + Styled Components)
-
-### 🎮 `KatmanPlayground`
-
-Colorful multi-game platform (React + Zustand)
-
-### ⚙️ `CoreXCrudAPI`
-
-ASP.NET Core CRUD API with JWT & EF Core
-
----
-
-## 📊 GitHub Insights
+## 🛡️ Security Credentials & Badges
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CodeByPinar&show_icons=true&theme=radical&hide_border=true&border_radius=15"/>
-  <img src="https://streak-stats.demolab.com?user=CodeByPinar&theme=radical&hide_border=true&border_radius=15"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeByPinar&layout=donut&theme=radical&hide_border=true"/>
-</p>
-
-📅 **Work Hours Heatmap + Repo Languages**
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=CodeByPinar&theme=radical" width="45%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=CodeByPinar&theme=radical" width="45%"/>
+  <img src="https://img.shields.io/badge/OWASP-Top%2010-critical?style=for-the-badge&logo=owasp&color=ff004c" />
+  <img src="https://img.shields.io/badge/Bug%20Bounty-Active-00ff9c?style=for-the-badge&logo=hackthebox" />
+  <img src="https://img.shields.io/badge/API%20Security-JWT%20%7C%20OAuth-00f7ff?style=for-the-badge&logo=postman" />
+  <img src="https://img.shields.io/badge/Zero%20Trust-Architecture-ff00ff?style=for-the-badge" />
 </p>
 
 ---
 
-## 📅 Upcoming Goals
+## 🗂️ Featured Projects (Pinned)
 
-* [ ] Launch **StellarX** live with animations
-* [ ] Release **Electorix** frontend showcase
-* [ ] Add **3D UI Components** with Three.js
-* [ ] Publish **AuditTrail.NET** NuGet package
-* [ ] Contribute to open-source design systems
-* [ ] Write technical blogs on **Design + Dev synergy**
+<table>
+<tr>
+<td width="50%">
+
+### 🛡️ Karakurt Savunma Web *(Private)*
+
+High-security defense-industry platform.
+
+</td>
+<td width="50%">
+
+### 🧠 AtlasCRM
+
+Next.js + Prisma CRM with auth, billing & admin panel.
+
+</td>
+</tr>
+<tr>
+<td>
+
+### 🌌 interstellar-ml-3I-ATLAS
+
+Physics-aware ML & time-series research project.
+
+</td>
+<td>
+
+### ⚙ DotnetDevopsPipeline
+
+.NET 8 Web API with CI/CD, Docker, Serilog.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🔗 Connect With Me
+## 🧠 Threat Model (Mini Architecture)
+
+```text
+┌────────────┐    HTTPS + CSP     ┌────────────────┐    JWT + RBAC     ┌──────────────────┐    ORM Guards     ┌────────────┐
+│   CLIENT   │ ─────────────────▶ │  API GATEWAY   │ ───────────────▶ │ BACKEND SERVICES │ ───────────────▶ │  DATABASE  │
+└────────────┘                     │ Rate Limit     │                  │ Business Logic   │                  │  Encrypted │
+                                   │ WAF / Filters  │                  │ Input Validation │                  │  Storage   │
+                                   └────────────────┘                  └──────────────────┘                  └────────────┘
+
+```
+
+---
+
+## 💼 Why Hire Me?
+
+* I bridge **engineering + design + security**
+* I build systems **ready for audits & scale**
+* I think in **architecture, not just features**
+* I reduce tech debt **before it happens**
+* I mentor teams and raise engineering standards
+
+---
+
+## 🧪 Architecture Decision Records (ADR)
+
+```text
+ADR-001: API-first architecture for scalability
+ADR-002: JWT with short-lived access tokens
+ADR-003: Defense-in-depth security model
+ADR-004: Design system tokenization
+```
+
+---
+
+## 📐 System Quality Metrics
+
+| Quality Attribute | Approach                |
+| ----------------- | ----------------------- |
+| Performance       | SSR, caching, profiling |
+| Security          | OWASP, Zero Trust       |
+| Maintainability   | Clean Architecture      |
+| Scalability       | Stateless APIs          |
+| Accessibility     | WCAG-driven UI          |
+
+---
+
+## ⏱ Live Engineering Status
 
 <p align="center">
-  <a href="https://twitter.com/llBeest"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter"/></a>
-  <a href="https://www.linkedin.com/in/piinartp"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/></a>
-  <a href="https://github.com/CodeByPinar"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/></a>
-  <a href="mailto:piinartp@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://medium.com/@piinartp"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
-  <a href="https://stackoverflow.com/users/yourID"><img src="https://img.shields.io/badge/StackOverflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Engineering%20Status-Active-00ff9c?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Focus-Deep%20Work-ff00ff?style=for-the-badge" />
 </p>
 
 ---
 
+## 🌍 Open Source Impact
+
+```yaml
+Public Repos      : 30+
+Stars Received   : Growing
+CI/CD Templates  : Reusable
+Dev Tools Built  : Fiber Inspector, Pipelines
+```
+
+---
+
+## 📊 Contribution Patterns
+
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=CodeByPinar&theme=radical" />
+</p>
+
+---
+
+## 🧠 CTF & Bug Bounty Timeline
+
+```text
+2024 ▸ Web Exploitation, OWASP Labs
+2025 ▸ Private Bug Bounty Programs
+2026 ▸ Advanced API & Auth Research
+```
+
+---
+
+## 🎯 Continuous Improvement Loop
+
+```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "primaryColor": "#0b0f1a",
+    "primaryTextColor": "#e6faff",
+    "primaryBorderColor": "#00f7ff",
+    "lineColor": "#ff00ff",
+    "fontFamily": "Fira Code",
+    "fontSize": "14px"
+  }
+}}%%
+graph LR
+    A[🎨 DESIGN] --> B[🛠 BUILD]
+    B --> C[🧪 TEST]
+    C --> D[🔐 SECURE]
+    D --> E[🚀 DEPLOY]
+    E --> A
+
+    style A fill:#0b0f1a,stroke:#00f7ff,stroke-width:2px,color:#00f7ff
+    style B fill:#0b0f1a,stroke:#00ff9c,stroke-width:2px,color:#00ff9c
+    style C fill:#0b0f1a,stroke:#ffe600,stroke-width:2px,color:#ffe600
+    style D fill:#0b0f1a,stroke:#ff00ff,stroke-width:2px,color:#ff00ff
+    style E fill:#0b0f1a,stroke:#ffffff,stroke-width:2px,color:#ffffff
+
+```
+
+---
+
+<h2 align="center">🔗 Connect</h2>
+
+<p align="center">
+  <a href="https://github.com/CodeByPinar">
+    <img src="https://img.shields.io/badge/GitHub-CodeByPinar-0b0f1a?style=for-the-badge&logo=github&logoColor=00f7ff" />
+  </a>
+  <a href="https://www.linkedin.com/in/pinardev">
+    <img src="https://img.shields.io/badge/LinkedIn-pinardev-0b0f1a?style=for-the-badge&logo=linkedin&logoColor=00ff9c" />
+  </a>
+  <a href="https://medium.com/@codebypinar">
+    <img src="https://img.shields.io/badge/Medium-@codebypinar-0b0f1a?style=for-the-badge&logo=medium&logoColor=ff00ff" />
+  </a>
+  <a href="mailto:piinartp@gmail.com">
+    <img src="https://img.shields.io/badge/Email-piinartp@gmail.com-0b0f1a?style=for-the-badge&logo=gmail&logoColor=ffe600" />
+  </a>
 </p>
