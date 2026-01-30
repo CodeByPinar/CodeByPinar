@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/dynamic/json?color=00f7ff&label=Profile%20Views&query=$.count&url=https://api.countapi.xyz/hit/CodeByPinar/profile" />
+  <img src="https://komarev.com/ghpvc/?username=codebypinar&style=for-the-badge&color=blue" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/CodeByPinar?style=for-the-badge&color=ff00ff" />
   <img src="https://img.shields.io/github/stars/CodeByPinar?style=for-the-badge&color=00ff9c" />
 </p>
