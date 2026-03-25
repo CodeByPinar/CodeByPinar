@@ -1,0 +1,127 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#003366"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="50%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#00d4ff">
+        <animate attributeName="stop-color" values="#00d4ff;#7c3aed;#00ff9c;#00d4ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="30%" style="stop-color:#00d4ff"/>
+      <stop offset="70%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bgGrad)"/>
+
+  <!-- Animated grid lines -->
+  <g opacity="0.07" stroke="#00d4ff" stroke-width="0.5">
+    <line x1="0" y1="40" x2="900" y2="40"/>
+    <line x1="0" y1="80" x2="900" y2="80"/>
+    <line x1="0" y1="120" x2="900" y2="120"/>
+    <line x1="0" y1="160" x2="900" y2="160"/>
+    <line x1="100" y1="0" x2="100" y2="200"/>
+    <line x1="200" y1="0" x2="200" y2="200"/>
+    <line x1="300" y1="0" x2="300" y2="200"/>
+    <line x1="400" y1="0" x2="400" y2="200"/>
+    <line x1="500" y1="0" x2="500" y2="200"/>
+    <line x1="600" y1="0" x2="600" y2="200"/>
+    <line x1="700" y1="0" x2="700" y2="200"/>
+    <line x1="800" y1="0" x2="800" y2="200"/>
+  </g>
+
+  <!-- Floating particles -->
+  <circle cx="50" cy="30" r="2" fill="#00d4ff" opacity="0.6">
+    <animate attributeName="cy" values="30;170;30" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="160" r="1.5" fill="#7c3aed" opacity="0.5">
+    <animate attributeName="cy" values="160;20;160" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="750" cy="50" r="2" fill="#00d4ff" opacity="0.4">
+    <animate attributeName="cy" values="50;150;50" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="750;780;750" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="860" cy="140" r="1.5" fill="#00ff9c" opacity="0.5">
+    <animate attributeName="cy" values="140;40;140" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="15" r="1" fill="#7c3aed" opacity="0.6">
+    <animate attributeName="cy" values="15;185;15" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="320" cy="180" r="1.5" fill="#00d4ff" opacity="0.3">
+    <animate attributeName="cy" values="180;10;180" dur="11s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Top glowing line -->
+  <rect x="0" y="0" width="900" height="2" fill="url(#lineGrad)">
+    <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Bottom glowing line -->
+  <rect x="0" y="198" width="900" height="2" fill="url(#lineGrad)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Corner brackets -->
+  <g stroke="#00d4ff" stroke-width="1.5" fill="none" opacity="0.7">
+    <polyline points="20,20 20,8 32,8"/>
+    <polyline points="868,8 880,8 880,20"/>
+    <polyline points="20,180 20,192 32,192"/>
+    <polyline points="868,192 880,192 880,180"/>
+  </g>
+
+  <!-- Main name -->
+  <text x="450" y="88" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="54" font-weight="700"
+        fill="url(#textGrad)" filter="url(#glow)" letter-spacing="8">
+    PINAR TOPUZ
+    <animate attributeName="opacity" values="1;0.85;1" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="450" y="122" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="13" font-weight="400"
+        fill="#94a3b8" letter-spacing="4">
+    FULL-STACK  &amp;  BACKEND  ENGINEER
+  </text>
+
+  <!-- Divider line -->
+  <line x1="200" y1="136" x2="700" y2="136" stroke="#1e293b" stroke-width="1"/>
+  <line x1="200" y1="136" x2="700" y2="136" stroke="url(#lineGrad)" stroke-width="1" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Stack pills -->
+  <g font-family="'Courier New', monospace" font-size="10" fill="#475569">
+    <text x="450" y="158" text-anchor="middle" letter-spacing="3">
+      Go  ·  .NET  ·  Next.js  ·  TypeScript  ·  PostgreSQL
+    </text>
+  </g>
+
+  <!-- Location -->
+  <text x="450" y="178" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="10"
+        fill="#334155" letter-spacing="2">
+    ◈  SAMSUN, TURKEY  ◈  BUILDING IN PUBLIC  ◈
+  </text>
+
+  <!-- Scan line animation -->
+  <rect x="0" y="0" width="900" height="3" fill="#00d4ff" opacity="0.04">
+    <animate attributeName="y" values="-3;203" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,0 +1,62 @@
+<svg width="900" height="80" viewBox="0 0 900 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgF" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="lineF" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="25%" style="stop-color:#7c3aed"/>
+      <stop offset="50%" style="stop-color:#00d4ff"/>
+      <stop offset="75%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+      <animate attributeName="x1" values="0%;-100%;0%" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%;100%" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="80" fill="url(#bgF)"/>
+
+  <!-- Animated top border -->
+  <rect x="0" y="0" width="900" height="2" fill="url(#lineF)"/>
+
+  <!-- Floating dots -->
+  <circle cx="100" cy="40" r="1.5" fill="#00d4ff" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="800" cy="40" r="1.5" fill="#7c3aed" opacity="0.4">
+    <animate attributeName="opacity" values="0.1;0.4;0.1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="20" r="1" fill="#00ff9c" opacity="0.3">
+    <animate attributeName="cy" values="20;60;20" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Corner brackets -->
+  <g stroke="#1e293b" stroke-width="1" fill="none">
+    <polyline points="30,15 30,8 37,8"/>
+    <polyline points="863,8 870,8 870,15"/>
+  </g>
+
+  <!-- Center text -->
+  <text x="450" y="36" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="11" font-weight="400"
+        fill="#334155" letter-spacing="3">
+    ◈  PINAR TOPUZ  ·  FULL-STACK &amp; BACKEND ENGINEER  ·  SAMSUN, TURKEY  ◈
+  </text>
+
+  <!-- Links row -->
+  <text x="450" y="56" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="9"
+        fill="#1e293b" letter-spacing="4">
+    GITHUB  ·  LINKEDIN  ·  MEDIUM  ·  EMAIL
+  </text>
+
+  <!-- Bottom border -->
+  <rect x="0" y="78" width="900" height="2" fill="url(#lineF)"/>
+
+  <!-- Scan line -->
+  <rect x="0" y="0" width="900" height="2" fill="#7c3aed" opacity="0.05">
+    <animate attributeName="y" values="-2;82" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>
