@@ -1,349 +1,233 @@
 <div align="center">
 
-![header](https://raw.githubusercontent.com/CodeByPinar/CodeByPinar/main/header.svg)
-
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=blur&height=340&color=0:020617,30:111827,55:581C87,78:7C3AED,100:06B6D4&text=Pınar%20Topuz&fontSize=68&fontColor=FFFFFF&animation=twinkling&fontAlignY=38&desc=Backend%20Engineer%20%E2%9C%A6%20SOC%20Analyst%20%E2%9C%A6%20Blue%20Team%20%26%20Secure%20Architecture&descAlignY=58&descSize=22" />
 
 <br/>
 
-<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=31&pause=900&color=06B6D4&center=true&vCenter=true&width=1150&lines=Building+systems+that+scale.;Defending+systems+that+matter.;Backend+Engineering+%C3%97+Cybersecurity;Clean+Architecture.+Blue+Team.+Production+Mindset." alt="Typing SVG" />
 
-[![Profile Views](https://komarev.com/ghpvc/?username=codebypinar&style=for-the-badge&color=0d1117&label=PROFILE+VIEWS&labelColor=00d4ff)](https://github.com/CodeByPinar) 
-[![Followers](https://img.shields.io/github/followers/CodeByPinar?style=for-the-badge&color=0d1117&label=FOLLOWERS&labelColor=7c3aed)](https://github.com/CodeByPinar?tab=followers) 
-[![Stars](https://img.shields.io/github/stars/CodeByPinar?style=for-the-badge&color=0d1117&label=TOTAL+STARS&labelColor=f59e0b)](https://github.com/CodeByPinar)
+<br/>
+<br/>
 
-</div>
+<img src="https://komarev.com/ghpvc/?username=CodeByPinar&label=PROFILE%20VIEWS&color=7C3AED&style=for-the-badge" />
+<img src="https://img.shields.io/github/followers/CodeByPinar?label=FOLLOWERS&style=for-the-badge&color=06B6D4&labelColor=020617" />
+<img src="https://img.shields.io/github/stars/CodeByPinar?label=TOTAL%20STARS&style=for-the-badge&color=7C3AED&labelColor=020617" />
+<img src="https://img.shields.io/badge/OPEN%20TO%20WORK-YES-22C55E?style=for-the-badge&labelColor=020617" />
 
----
+<br/>
+<br/>
 
-<div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                                                                     │
-│   ❯ whoami                                                          │
-│                                                                     │
-│     Name     ──  Pınar Topuz                                        │
-│     Role     ──  Full-Stack and Backend Engineer                      │
-│     Focus    ──  Scalable APIs · System Design · Clean Architecture │
-│     Stack    ──  Go · .NET 8 · Next.js · TypeScript · PostgreSQL    │
-│     Approach ──  Architecture-first. Build systems, not demos.      │
-│     Location ──  Samsun, Turkey  🇹🇷                                │
-│     Status   ──  ● OPEN TO WORK  /  ● BUILDING IN PUBLIC           │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-```
+<img src="https://github-profile-trophy.vercel.app/?username=CodeByPinar&theme=algolia&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=1&column=6" />
 
 </div>
 
 ---
 
-## ◈ About Me
+# ✦ Brand Identity
 
 <table>
 <tr>
-<td width="52%" valign="top">
+<td width="55%">
 
-I'm a **Full-Stack and Backend Engineer** who obsesses over system design, clean architecture, and developer experience.
-I don't just ship features — I build **foundations that scale**.
-
-My backend work revolves around **Go** and **.NET 8**, designing RESTful APIs and event-driven services that are both performant and maintainable. On the frontend, I craft polished UIs with **Next.js** and **TypeScript** — always with UX and performance in mind.
-
-<br/>
-
-**Engineering values:**
-
+```yaml
+name: Pınar Topuz
+role: Backend Engineer · SOC Analyst
+location: Samsun, Türkiye
+brand_positioning: Secure Backend Engineering
+focus:
+  - Scalable API Architecture
+  - Clean Architecture
+  - SIEM & Incident Response
+  - Network Security
+  - Threat Intelligence
+  - Detection Engineering
 ```
-▸  Architecture over hacks   — design before writing a line
-▸  Clean code                — readable, testable, built to last
-▸  Ship fast                 — CI/CD, containers, automated
-▸  Iterate openly            — feedback loops shape better engineers
-```
-
-<br/>
-
-**Currently into:**
-
-`Go microservices`   `gRPC`   `Kafka`   `Kubernetes`   `Advanced PostgreSQL`   `AI in prod`
 
 </td>
-<td width="48%" valign="top">
+<td width="45%">
 
-```go
-// engineer.go
-package main
+### What I Build
 
-type Engineer struct {
-    Name      string
-    Role      string
-    Languages []string
-    Databases []string
-    DevOps    []string
-    Mindset   string
-}
-
-func NewEngineer() Engineer {
-    return Engineer{
-        Name: "Pınar Topuz",
-        Role: "Full-Stack and Backend",
-        Languages: []string{
-            "Go", ".NET/C#",
-            "TypeScript", "Python",
-        },
-        Databases: []string{
-            "PostgreSQL", "Redis",
-        },
-        DevOps: []string{
-            "Docker", "GitHub Actions",
-            "Vercel", "Nginx",
-        },
-        Mindset: "ship → measure → improve",
-    }
-}
-
-// Location: Samsun, Turkey 🇹🇷
-// Status:   ● open to work
-```
+▸ Production-grade backend systems
+▸ Secure and observable APIs
+▸ Blue Team focused security labs
+▸ Network defense workflows
+▸ Incident response foundations
+▸ Systems designed for reliability
 
 </td>
 </tr>
 </table>
 
----
+I build software with an attacker-aware mindset.
+My work combines **backend engineering**, **secure architecture**, and **defensive cybersecurity**.
 
-## ◈ Tech Stack
-
-<div align="center">
-
-### 🎨 Frontend
-
-![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8)
-![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-
-### ⚙️ Backend
-
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-
-### 🗄️ Data and Storage
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![Entity Framework](https://img.shields.io/badge/Entity_Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-
-### 🚀 DevOps and Infrastructure
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
+> Architecture makes systems scalable. Security makes them trustworthy.
 
 ---
 
-## ◈ Featured Projects
+# ✦ Professional Dashboard
 
 <div align="center">
 
 <table>
 <tr>
-
-<td valign="top" width="50%">
-
-<div align="center">
-
-### 🔐 [go-eventra](https://github.com/CodeByPinar/go-eventra)
-
-</div>
-
-> **Production-grade authentication and event platform built in Go**
-
-A full-featured auth system architected for real-world scale. Clean separation of concerns, middleware chain design, and a React frontend that communicates via typed API contracts.
-
-**Highlights:**
-- ⚡ Go backend with clean layered architecture
-- 🔄 JWT access + refresh token rotation
-- 🚫 Token blacklist with Redis
-- 🛡 Rate limiting middleware
-- 🐘 PostgreSQL with migrations
-- ⚛️ React frontend with TypeScript
-
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-</td>
-
-<td valign="top" width="50%">
-
-<div align="center">
-
-### 🧠 AtlasCRM
-
-</div>
-
-> **Full-stack CRM platform — from auth to billing**
-
-A fully integrated CRM built design-first. Every screen was designed before a single component was written. The result is a cohesive product with a real user experience.
-
-**Highlights:**
-- 🎨 Design-system-first approach
-- 🔐 Role-based access control (RBAC)
-- 💳 Billing and subscription management
-- 🗂 Full admin panel
-- 🏗 Prisma ORM + PostgreSQL
-- 📱 Fully responsive
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8)
-
-</td>
-
-<td valign="top" width="50%">
-
-<div align="center">
-
-### ⚙️ DotnetDevopsPipeline
-
-</div>
-
-> **Enterprise .NET 8 Web API with a full DevOps pipeline**
-
-A reference architecture for production .NET APIs. Structured logging, health checks, containerization, and a CI/CD pipeline ready to drop into any team.
-
-**Highlights:**
-- 🔧 .NET 8 Web API — clean architecture
-- 📋 Serilog structured logging
-- 🩺 Health check endpoints
-- 🐳 Docker + Docker Compose
-- 🔁 GitHub Actions CI/CD
-- 📦 NuGet-ready packages
-
-![.NET](https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Serilog](https://img.shields.io/badge/Serilog-CC2222?style=flat-square)
-
-</td>
-
-</tr>
-
-<tr>
-<td valign="top" width="50%">
-
-<div align="center">
-
-### 🌌 interstellar-ml-3I-ATLAS
-
-</div>
-
-> **Physics-aware ML and time-series forecasting research**
-
-A research project combining domain knowledge with machine learning. ARIMA-based forecasting with custom feature engineering rooted in physical constraints.
-
-**Highlights:**
-- 🧮 ARIMA and SARIMA time-series models
-- 🔬 Physics-constrained feature engineering
-- 📈 Multi-step forecasting pipeline
-- 🐍 Python · NumPy · Pandas · Statsmodels
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-
-</td>
-
-<td valign="top" width="50%">
-
-<div align="center">
-
-### 🌐 More incoming...
-
-</div>
-
-> **Currently building — stay close**
-
-```
-█████████████████████░░░  82%
-
-[ ] API Gateway boilerplate (Go)
-[ ] Next.js SaaS starter kit
-[✓] go-eventra v2 planning
-[ ] Open-source CRM components
-```
-
-![Status](https://img.shields.io/badge/Status-In_Progress-f59e0b?style=flat-square)
-![Commits](https://img.shields.io/badge/Daily_Commits-active-22c55e?style=flat-square)
-
-</td>
-
-</tr>
-</table>
-
-</div>
-
----
-
-## ◈ GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=CodeByPinar&amp;show_icons=true&amp;theme=midnight-purple&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=00d4ff&amp;icon_color=7c3aed&amp;text_color=94a3b8&amp;ring_color=00d4ff&amp;include_all_commits=true&amp;count_private=true" height="175" />
-  
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeByPinar&amp;layout=compact&amp;theme=midnight-purple&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=00d4ff&amp;text_color=94a3b8&amp;langs_count=8" height="175" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=CodeByPinar&amp;theme=midnight-purple&amp;hide_border=true&amp;background=0d1117&amp;ring=00d4ff&amp;fire=7c3aed&amp;currStreakLabel=00d4ff&amp;sideLabels=94a3b8&amp;dates=475569&amp;stroke=1e293b" height="175" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=CodeByPinar&amp;theme=react-dark&amp;bg_color=0d1117&amp;color=00d4ff&amp;line=7c3aed&amp;point=00d4ff&amp;area=true&amp;hide_border=true" />
-
-</div>
-
----
-
-## ◈ Connect
-
-<div align="center">
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/──%20GitHub-CodeByPinar-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)](https://github.com/CodeByPinar)
- 
-[![LinkedIn](https://img.shields.io/badge/──%20LinkedIn-pinardev-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=161b22)](https://www.linkedin.com/in/pinardev)
-
-<br/>
-
-[![Medium](https://img.shields.io/badge/──%20Medium-@codebypinar-0d1117?style=for-the-badge&logo=medium&logoColor=white&labelColor=161b22)](https://medium.com/@codebypinar)
- 
-[![Email](https://img.shields.io/badge/──%20Email-piinartp@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=161b22)](mailto:piinartp@gmail.com)
-
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Backend-Engineer-7C3AED?style=for-the-badge&labelColor=020617" />
 <br/><br/>
-
-> *"First, solve the problem. Then, write the code."*
-
-<br/>
+Scalable APIs<br/>Clean Architecture
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/SOC-Analyst-06B6D4?style=for-the-badge&labelColor=020617" />
+<br/><br/>
+SIEM<br/>Incident Response
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Blue-Team-2563EB?style=for-the-badge&labelColor=020617" />
+<br/><br/>
+Threat Intel<br/>Detection
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/DevOps-Docker-22C55E?style=for-the-badge&labelColor=020617" />
+<br/><br/>
+CI/CD<br/>Linux
+</td>
+</tr>
+</table>
 
 </div>
 
-![footer](https://raw.githubusercontent.com/CodeByPinar/CodeByPinar/main/footer.svg)
+---
+
+# ✦ Technology Stack
+
+<div align="center">
+
+## Backend & Architecture
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge\&logo=go\&logoColor=white)
+![.NET 8](https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge\&logo=dotnet\&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge\&logo=csharp\&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge\&logo=postman\&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-111827?style=for-the-badge)
+![Kafka](https://img.shields.io/badge/Kafka-000000?style=for-the-badge\&logo=apachekafka\&logoColor=white)
+
+## Security & Blue Team
+
+![SIEM](https://img.shields.io/badge/SIEM-0D47A1?style=for-the-badge\&logo=elastic\&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge\&logo=wireshark\&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco_Networking-1BA0D7?style=for-the-badge\&logo=cisco\&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge\&logo=kalilinux\&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-020617?style=for-the-badge)
+![Threat Intel](https://img.shields.io/badge/Threat_Intelligence-0F172A?style=for-the-badge)
+![Incident Response](https://img.shields.io/badge/Incident_Response-7C2D12?style=for-the-badge)
+
+## Data, Cloud & Delivery
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge\&logo=redis\&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge\&logo=nginx\&logoColor=white)
+
+</div>
+
+---
+
+# ✦ GitHub Analytics Center
+
+<div align="center">
+
+<img height="190em" src="https://github-readme-stats.vercel.app/api?username=CodeByPinar&show_icons=true&theme=algolia&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&custom_title=Pınar%20Topuz%20GitHub%20Stats" />
+
+<img height="190em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeByPinar&layout=compact&theme=algolia&hide_border=true&langs_count=10&custom_title=Most%20Used%20Languages" />
+
+<br/>
+
+<img height="190em" src="https://github-readme-streak-stats.herokuapp.com/?user=CodeByPinar&theme=algolia&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+
+<br/>
+
+<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=CodeByPinar&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Activity%20Graph" />
+
+</div>
+
+---
+
+# ✦ Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CodeByPinar/CodeByPinar/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CodeByPinar/CodeByPinar/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/CodeByPinar/CodeByPinar/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+> Snake grafiği için repo içinde GitHub Action gerekir. Action eklenmezse bu bölüm görünmeyebilir.
+
+---
+
+# ✦ Certifications
+
+<div align="center">
+
+| Certification                               | Provider                 | Status               |
+| ------------------------------------------- | ------------------------ | -------------------- |
+| 🛡 Cyber Threat Management                  | Cisco Networking Academy | Completed — May 2026 |
+| 🌐 Getting Started with Cisco Packet Tracer | Cisco Networking Academy | Completed — May 2026 |
+| 🔐 Introduction to Cybersecurity            | Cisco Networking Academy | Completed — Aug 2025 |
+| ⚔ Ethical Hacking & Penetration Testing     | AltaySec                 | In Progress          |
+
+</div>
+
+---
+
+# ✦ Current Mission
+
+```text
+01. Go Microservices & Distributed Backend Systems
+02. Secure API Design & Clean Architecture
+03. SOC Analyst Labs & Detection Engineering
+04. SIEM, Incident Response & Threat Intelligence
+05. Network Security with Cisco, Wireshark and Nmap
+06. Production-ready DevOps with Docker and CI/CD
+```
+
+---
+
+# ✦ Connect
+
+<div align="center">
+
+<a href="https://github.com/CodeByPinar">
+<img src="https://img.shields.io/badge/GitHub-CodeByPinar-020617?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/in/pinardev">
+<img src="https://img.shields.io/badge/LinkedIn-pinardev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://medium.com/@codebypinar">
+<img src="https://img.shields.io/badge/Medium-@codebypinar-121212?style=for-the-badge&logo=medium&logoColor=white" />
+</a>
+
+<a href="mailto:piinartp@gmail.com">
+<img src="https://img.shields.io/badge/Email-piinartp@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=160&section=footer&color=0:06B6D4,50:7C3AED,100:020617" />
+
+### “Secure systems are designed — never accidental.”
+
+</div>
