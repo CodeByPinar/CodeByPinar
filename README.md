@@ -1,21 +1,54 @@
 <div align="center">
+
   <img src="./.github/terminal-brand.svg" width="100%" alt="Pınar Topuz Terminal Brand" />
-</div>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=31&pause=900&color=06B6D4&center=true&vCenter=true&width=1150&lines=Building+systems+that+scale.;Defending+systems+that+matter.;Backend+Engineering+%C3%97+Cybersecurity;Clean+Architecture.+Blue+Team.+Production+Mindset." alt="Typing SVG" />
+  <br/><br/>
 
-<br/>
-<br/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=30&duration=2400&pause=850&color=22D3EE&center=true&vCenter=true&width=1100&lines=%F0%9F%9B%A1%EF%B8%8F+Building+secure+systems.;%E2%9A%A1+Debugging+chaos+into+architecture.;%F0%9F%90%9B+Bugs+enter.+Logs+snitch.;%F0%9F%8E%AE+Backend+quest+%C3%97+Cybersecurity+mode." alt="Typing SVG" />
 
-<img src="https://komarev.com/ghpvc/?username=CodeByPinar&label=PROFILE%20VIEWS&color=7C3AED&style=for-the-badge" />
-<img src="https://img.shields.io/github/followers/CodeByPinar?label=FOLLOWERS&style=for-the-badge&color=06B6D4&labelColor=020617" />
-<img src="https://img.shields.io/github/stars/CodeByPinar?label=TOTAL%20STARS&style=for-the-badge&color=7C3AED&labelColor=020617" />
-<img src="https://img.shields.io/badge/OPEN%20TO%20WORK-YES-22C55E?style=for-the-badge&labelColor=020617" />
+  <br/>
 
-<br/>
-<br/>
+  <img width="82%" src="https://capsule-render.vercel.app/api?type=transparent&height=4&color=0:020617,18:06B6D4,42:7C3AED,68:A855F7,88:22D3EE,100:020617" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=CodeByPinar&theme=algolia&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=1&column=6" />
+  <br/><br/>
+
+  <p align="center">
+    <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="82" alt="Bug hunter character" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/%F0%9F%8E%AE%20LEVEL-Backend%20Security%20Mode-020617?style=for-the-badge&labelColor=020617&color=7C3AED" />
+    <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20MISSION-Defend%20the%20System-020617?style=for-the-badge&labelColor=020617&color=06B6D4" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="82" alt="Ship mode character" />
+  </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/%E2%9A%A1%20POWER-Clean%20Architecture-020617?style=for-the-badge&labelColor=020617&color=A855F7" />
+    <img src="https://img.shields.io/badge/%F0%9F%90%9B%20BUGS-Logs%20will%20snitch-020617?style=for-the-badge&labelColor=020617&color=0891B2" />
+    <img src="https://img.shields.io/badge/%E2%98%95%20FUEL-Coffee%20%2B%20Logs-020617?style=for-the-badge&labelColor=020617&color=22C55E" />
+  </p>
+
+  <p align="center">
+    <sub><b>🕵️ bug hunter</b></sub>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <sub><b>🚀 ship mode</b></sub>
+  </p>
+
+  <br/>
+
+  <img src="https://komarev.com/ghpvc/?username=CodeByPinar&label=PROFILE%20VIEWS&color=7C3AED&style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/CodeByPinar?label=FOLLOWERS&style=for-the-badge&color=06B6D4&labelColor=020617" />
+  <img src="https://img.shields.io/github/stars/CodeByPinar?label=TOTAL%20STARS&style=for-the-badge&color=A855F7&labelColor=020617" />
+  <img src="https://img.shields.io/badge/OPEN%20TO%20WORK-YES-22C55E?style=for-the-badge&labelColor=020617" />
+
+  <br/><br/>
+
+  <img width="72%" src="https://capsule-render.vercel.app/api?type=transparent&height=4&color=0:020617,20:22D3EE,45:7C3AED,70:A855F7,100:020617" />
+
+  <br/>
+
+  <sub>
+    <b>while(coffee) &#123; build(); defend(); debug(); ship(); &#125;</b>
+  </sub>
 
 </div>
 
