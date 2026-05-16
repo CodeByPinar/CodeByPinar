@@ -1,8 +1,6 @@
 <div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=blur&height=340&color=0:020617,30:111827,55:581C87,78:7C3AED,100:06B6D4&text=Pınar%20Topuz&fontSize=68&fontColor=FFFFFF&animation=twinkling&fontAlignY=38&desc=Backend%20Engineer%20%E2%9C%A6%20SOC%20Analyst%20%E2%9C%A6%20Blue%20Team%20%26%20Secure%20Architecture&descAlignY=58&descSize=22" />
-
-<br/>
+  <img src="./assets/brand/terminal-brand.svg" width="100%" alt="Pınar Topuz Terminal Brand" />
+</div>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=31&pause=900&color=06B6D4&center=true&vCenter=true&width=1150&lines=Building+systems+that+scale.;Defending+systems+that+matter.;Backend+Engineering+%C3%97+Cybersecurity;Clean+Architecture.+Blue+Team.+Production+Mindset." alt="Typing SVG" />
 
