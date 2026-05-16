@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/brand/terminal-brand.svg" width="100%" alt="Pınar Topuz Terminal Brand" />
+  <img src="./.github/terminal-brand.svg" width="100%" alt="Pınar Topuz Terminal Brand" />
 </div>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=31&pause=900&color=06B6D4&center=true&vCenter=true&width=1150&lines=Building+systems+that+scale.;Defending+systems+that+matter.;Backend+Engineering+%C3%97+Cybersecurity;Clean+Architecture.+Blue+Team.+Production+Mindset." alt="Typing SVG" />
