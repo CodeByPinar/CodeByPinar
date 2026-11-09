@@ -186,7 +186,62 @@ def divider():
     save("divider", 1200, 24, f'<path d="M0 12H1200" stroke="{LINE}" stroke-width="1.5"/><circle cx="600" cy="12" r="5" fill="url(#g)"/>')
 
 
-banner(); divider()
+def about():
+    w, h = 1200, 330
+    chips, x = "", 330
+    for t, c in [("Samsun, Türkiye · remote", LAV), ("Freelance since Jun 2026", SAGE), ("GLPI 10 / 11 / 12", PEACH), ("TR · EN", ROSE)]:
+        pw = 36 + len(t) * 8.2
+        chips += (f'<rect x="{x}" y="262" width="{pw}" height="34" rx="17" fill="{c}" fill-opacity=".09" stroke="{c}" stroke-opacity=".38"/>'
+                  f'<circle cx="{x + 18}" cy="279" r="3.5" fill="{c}"/>' + T(x + 30, 284, t, 13.5, TX, weight=500))
+        x += pw + 10
+    orb = "".join(f'<circle cx="150" cy="150" r="{r}" fill="none" stroke="{c}" stroke-opacity="{o}" stroke-width="1.2"/>'
+                  for r, c, o in [(112, LAV, .30), (88, ROSE, .32), (64, PEACH, .36)])
+    body = f"""<g clip-path="url(#c)"><rect width="{w}" height="{h}" fill="url(#card)"/>
+{aura(150, 150, 120, LAV, .30, "blur2")}{aura(1090, 40, 150, SAGE, .16, "blur2")}{aura(900, 330, 170, ROSE, .14, "blur2")}</g>
+<rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="23.5" fill="none" stroke="{LINE}"/>
+{orb}<circle cx="150" cy="150" r="46" fill="url(#g)" opacity=".92"/><circle cx="150" cy="150" r="46" fill="none" stroke="#fff" stroke-opacity=".28"/>
+{T(150, 166, "P", 46, BG, SANS, 700, "middle")}
+<circle cx="262" cy="92" r="4" fill="{SAGE}"/><circle cx="58" cy="228" r="3.5" fill="{PEACH}"/><circle cx="232" cy="236" r="3" fill="{LAV}"/>
+{T(330, 62, "about me", 14, MU, MONO, extra='letter-spacing="2"')}
+{T(330, 112, "I turn compliance into software", 38, TX, SANS, 650, extra='letter-spacing="-.5"')}
+<rect x="332" y="128" width="56" height="3" rx="1.5" fill="url(#g)"/>
+{T(330, 170, "Hi, I'm Pınar, a freelance GLPI plugin & IT risk automation developer.", 17.5, SUB)}
+{T(330, 198, "I take information-security requirements and make them configurable from the UI,", 17.5, SUB)}
+{T(330, 226, "portable and auto-calculating: risk scoring, approval flows, audits, reports.", 17.5, SUB)}
+{chips}"""
+    save("about", w, h, body)
+
+
+def principles():
+    items = [("Attacker-aware", "I design with the attacker's view in mind: least privilege, no secrets in output, nothing magic in production.", LAV, "shield"),
+             ("Read-only by default", "Scanners and reports look, never touch. Writes are explicit, backed up and reversible.", SAGE, "eye"),
+             ("Documented & tested", "Every plugin ships with tests, TR/EN docs and a changelog, so it survives its author.", PEACH, "check")]
+    gl = {"shield": '<path d="M12 3l7.5 3v5.5c0 4.5-3.2 7.8-7.5 9.5-4.3-1.7-7.5-5-7.5-9.5V6z"/><path d="M8.8 12l2.2 2.2 4.2-4.4"/>',
+          "eye": '<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/>',
+          "check": '<rect x="4" y="4" width="16" height="16" rx="4"/><path d="M8.5 12.3l2.5 2.5 4.6-5"/>'}
+    w, h, gap = 1200, 190, 16
+    cw = (w - 2 * gap) / 3
+    body, defs = "", ""
+    for i, (t, d, c, g) in enumerate(items):
+        x = i * (cw + gap)
+        defs += f'<clipPath id="p{i}"><rect width="{cw}" height="{h}" rx="22"/></clipPath>'
+        lines, cur = [], ""
+        for wd in d.split():
+            if len(cur) + len(wd) > 50:
+                lines.append(cur)
+                cur = wd
+            else:
+                cur = (cur + " " + wd).strip()
+        lines.append(cur)
+        txt = "".join(T(28, 112 + j * 22, ln, 14, SUB) for j, ln in enumerate(lines))
+        body += (f'<g transform="translate({x} 0)"><g clip-path="url(#p{i})"><rect width="{cw}" height="{h}" fill="url(#card)"/>{aura(cw - 20, 10, 80, c, .26, "blur2")}</g>'
+                 f'<rect x=".5" y=".5" width="{cw - 1}" height="{h - 1}" rx="21.5" fill="none" stroke="{LINE}"/>'
+                 f'<circle cx="52" cy="48" r="22" fill="{c}" fill-opacity=".13"/><g transform="translate(40 36)" fill="none" stroke="{c}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">{gl[g]}</g>'
+                 + T(88, 55, t, 20, TX, SANS, 600) + txt + '</g>')
+    save("principles", w, h, body, defs)
+
+
+banner(); divider(); about(); principles()
 for s, l, c in [("about", "About", LAV), ("focus", "Current focus", SAGE), ("projects", "Open-source projects", PEACH),
                 ("activity", "Activity", PEACH), ("stack", "Toolbox", ROSE), ("certs", "Certifications", LAV), ("connect", "Connect", SAGE)]:
     heading(s, l, c)

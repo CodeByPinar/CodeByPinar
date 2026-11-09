@@ -290,6 +290,69 @@ def w_contrib(d):
     svg("contrib", w, h, body + months + cells + sweep + pulse + legend + stamp(h - 16), defs)
 
 
+def w_snake(d):
+    """A snake that walks the contribution grid column by column and eats the active days (pure SMIL)."""
+    days = d["days"]
+    w, h, pitch, cell, gx, gy = 1200, 252, 21, 17, 40, 78
+    body = panel(w, h) + T(40, 44, "Contribution snake", 17, TX, SANS, 600) + T(w - 40, 44, f"{fmt(d['contrib'])} days of fuel", 12.5, MU, MONO, anchor="end")
+    if not days:
+        svg("snake", w, h, body + T(w // 2, 140, "no contribution data (token needed)", 14, MU, MONO, anchor="middle"))
+        return
+    vals = sorted(v for _, v in days if v)
+    q = [vals[int(len(vals) * p)] for p in (.25, .5, .75)] if vals else [1, 2, 3]
+    shades = ["#1a2133", "#34406f", "#5967b4", "#8795e6", "#c3cbfb"]
+    off = (dt.date.fromisoformat(days[0][0]).weekday() + 1) % 7
+    grid = {}
+    for i, (ds, n) in enumerate(days):
+        grid[((i + off) // 7, (i + off) % 7)] = (ds, n)
+    ncol = max(c for c, _ in grid) + 1
+    order = []
+    for c in range(ncol):
+        rows = sorted(r for cc, r in grid if cc == c)
+        order += [(c, r) for r in (rows if c % 2 == 0 else rows[::-1])]
+    ctr = [(gx + c * pitch + cell / 2, gy + r * pitch + cell / 2) for c, r in order]
+    cum = [0.0]
+    for (x0, y0), (x1, y1) in zip(ctr, ctr[1:]):
+        cum.append(cum[-1] + math.hypot(x1 - x0, y1 - y0))
+    total = cum[-1] or 1
+    run = total / 260.0
+    dur = run + 3.5
+    f = run / dur
+    months, last_m, cells = "", None, ""
+    for (c, r), i in zip(order, range(len(order))):
+        ds, n = grid[(c, r)]
+        x, y = gx + c * pitch, gy + r * pitch
+        if r == 0 and dt.date.fromisoformat(ds).month != last_m and c < 51:
+            months += T(x, 66, dt.date.fromisoformat(ds).strftime("%b"), 11.5, MU, MONO)
+            last_m = dt.date.fromisoformat(ds).month
+        L = 0 if n == 0 else 1 + sum(n > t for t in q)
+        if L == 0:
+            cells += f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="5" fill="{shades[0]}"/>'
+        else:
+            a = cum[i] / total * f
+            cells += (f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="5" fill="{shades[L]}">'
+                      f'<animate attributeName="fill" values="{shades[L]};{shades[L]};{shades[0]};{shades[0]}" keyTimes="0;{a:.5f};{a + .004:.5f};1" dur="{dur:.2f}s" repeatCount="indefinite"/></rect>')
+    path = "M" + " L".join(f"{x:.1f} {y:.1f}" for x, y in ctr)
+    nseg = 7
+    lagmax = ((nseg - 1) * pitch) / total * f
+    snake = ""
+    for k in range(nseg - 1, -1, -1):  # head drawn last (on top)
+        tk = (k * pitch) / total * f
+        size = cell - k * .55
+        col = ROSE if k == 0 else LAV
+        op = 1 if k == 0 else max(.9 - k * .1, .3)
+        kt = f"0;{tk:.5f};{tk + f:.5f};1" if k else f"0;0;{f:.5f};1"
+        vis = (f'<animate attributeName="opacity" values="0;1;1" keyTimes="0;{max(tk, .0001):.5f};1" calcMode="discrete" dur="{dur:.2f}s" repeatCount="indefinite"/>' if k else "")
+        eyes = (f'<circle cx="{-3}" cy="-3" r="1.8" fill="{BG}"/><circle cx="3" cy="-3" r="1.8" fill="{BG}"/>' if k == 0 else "")
+        snake += (f'<g opacity="{0 if k else 1}">{vis}<animateMotion path="{path}" keyPoints="0;0;1;1" keyTimes="{kt}" calcMode="linear" dur="{dur:.2f}s" repeatCount="indefinite"/>'
+                  f'<rect x="{-size / 2:.2f}" y="{-size / 2:.2f}" width="{size:.2f}" height="{size:.2f}" rx="{5 if k == 0 else 4.5}" fill="{col}" opacity="{op}"/>{eyes}</g>'
+                  if k else
+                  f'<g><animateMotion path="{path}" keyPoints="0;1;1" keyTimes="0;{f:.5f};1" calcMode="linear" dur="{dur:.2f}s" repeatCount="indefinite"/>'
+                  f'<circle r="15" fill="{ROSE}" opacity=".22"/><rect x="{-size / 2}" y="{-size / 2}" width="{size}" height="{size}" rx="5.5" fill="{col}"/>{eyes}</g>')
+    fade = (f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;{f + lagmax + .005:.5f};{f + lagmax + .04:.5f};1" dur="{dur:.2f}s" repeatCount="indefinite"/>')
+    svg("snake", w, h, body + months + cells + f'<g>{fade}{snake}</g>' + stamp(h - 16))
+
+
 def smooth(pts):
     p = f"M{pts[0][0]:.1f} {pts[0][1]:.1f}"
     for (x0, y0), (x1, y1) in zip(pts, pts[1:]):
@@ -348,7 +411,7 @@ def w_views(d):
 
 def main():
     d = demo() if DEMO else collect()
-    for fn in (w_stats, w_langs, w_contrib, w_views):
+    for fn in (w_stats, w_langs, w_contrib, w_snake, w_views):
         fn(d)
     print("widgets ->", OUT, "(demo)" if DEMO else "")
 

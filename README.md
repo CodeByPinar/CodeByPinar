@@ -14,13 +14,11 @@
 
 <img src="assets/h-about.svg" width="100%" alt="About" />
 
-I'm **Pınar** — a software developer based in **Samsun, Türkiye**, working remotely as a freelance **GLPI plugin & IT risk automation developer**.
+<img src="assets/about.svg" width="100%" alt="I'm Pınar, a freelance GLPI plugin and IT risk automation developer based in Samsun, Türkiye. I turn information-security requirements into configurable, portable, auto-calculating software." />
 
-I turn compliance and information-security requirements into **UI-configurable, portable, auto-calculating** software: risk scoring, approval flows, audits, reports, and everything around ITSM. I build, test and ship end to end — and I like my tools **read-only by default**.
+<br/>
 
-- 🧩 Daily driver: PHP · GLPI plugin API (10 / 11 / 12) · MySQL/MariaDB · Twig
-- 🛡️ Mindset: attacker-aware design, defensive tooling, no magic in production
-- 🌍 Open source on the side — documented, tested, bilingual (TR/EN)
+<img src="assets/principles.svg" width="100%" alt="Attacker-aware design, read-only by default, documented and tested" />
 
 <img src="assets/h-focus.svg" width="100%" alt="Current focus" />
 
@@ -47,6 +45,10 @@ I turn compliance and information-security requirements into **UI-configurable, 
 <br/>
 
 <img src="assets/generated/contrib.svg" width="100%" alt="Contribution heatmap" />
+
+<br/>
+
+<img src="assets/generated/snake.svg" width="100%" alt="Contribution snake" />
 
 <br/>
 
