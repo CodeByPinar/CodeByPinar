@@ -1,0 +1,41 @@
+name: Profile widgets
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [tools/gen_stats.py, .github/workflows/profile.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-widgets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate widgets
+        run: python tools/gen_stats.py
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          # TRAFFIC_TOKEN = classic PAT with `repo` scope (repo traffic needs push access).
+          # Without it the workflow still runs, the view counter just stops growing.
+          GH_TOKEN: ${{ secrets.TRAFFIC_TOKEN || secrets.GITHUB_TOKEN }}
+      - name: Commit changes
+        run: |
+          git config user.name "Pınar Topuz"
+          git config user.email "107423523+CodeByPinar@users.noreply.github.com"
+          git add assets/generated data/traffic.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh profile widgets"
+            git push
+          fi
